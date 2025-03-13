@@ -6,7 +6,7 @@
   <div class="border rounded-xl border-yellow-500 max-w-[800px] w-full p-10 mt-5 absolute left-1/2 transform -translate-x-1/2 flex justify-center">
     <div class="container grid grid-cols-3 gap-4">
       <div class="bg-blue-500 text-white p-5 rounded-lg">
-        PayPal
+        <ngx-paypal [config]="payPalConfig"></ngx-paypal>
       </div>
       <div class="bg-green-500 text-white p-5 rounded-lg">
         Mercado Pago
